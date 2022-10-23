@@ -22,18 +22,25 @@ ChartJS.register(
 
 function Calculate() {
   const data = {
-    labels: ["Food", "Housing", "Mobility", "Thing"],
+    labels: [
+      "Food",
+      "Staying",
+      "Mobility",
+      "Entertainment",
+      "Shopping",
+      "Other",
+    ],
     datasets: [
       {
         label: "Berlin",
-        data: [2, 9, 3, 5],
-        backgroundColor: "rgba(255, 99, 132, 0.2)",
-        borderColor: "rgba(255, 99, 132, 1)",
+        data: [8, 9, 7, 3, 5, 4],
+        backgroundColor: "rgba(50, 168, 113, 0.2)",
+        borderColor: "rgba(50, 168, 113, 1)",
         borderWidth: 1,
       },
       {
         label: "Budapest",
-        data: [5, 3, 7, 8],
+        data: [6, 5, 4, 5, 8, 5],
         backgroundColor: "rgba(255, 99, 132, 0.2)",
         borderColor: "rgba(155, 89, 139, 1)",
         borderWidth: 1,
